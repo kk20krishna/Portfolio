@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Krishna Kumar S",
-  title: "Hi all, I'm Krishna Kumar S (KK)",
+  title: "Hi all, I'm KK",
   subTitle: emoji(
     "A passionate Data Scientist 🚀 with expertise in building data-driven solutions using Python, R, and SQL, along with hands-on experience in machine learning, deep learning, and statistical analysis. Skilled in working with large datasets, developing predictive models, and creating insightful visualizations using tools like Pandas, NumPy, Scikit-learn, TensorFlow, and Matplotlib. Proficient in deploying AI solutions and automating workflows with MLOps pipelines."
   ),
