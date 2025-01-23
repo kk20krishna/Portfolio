@@ -65,8 +65,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "python",
