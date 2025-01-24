@@ -14,6 +14,9 @@ export default function Skills() {
   }
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
+      <Fade right duration={2000}>
+        <SoftwareSkill />
+      </Fade>
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
@@ -43,7 +46,6 @@ export default function Skills() {
             >
               {skillsSection.subTitle}
             </p>
-            <SoftwareSkill />
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
