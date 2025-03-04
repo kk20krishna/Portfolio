@@ -169,8 +169,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
       image: require("./assets/images/Supply Chain Optimization.png"),
