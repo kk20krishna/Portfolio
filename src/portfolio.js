@@ -173,7 +173,7 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/Supply Chain Optimization.png"),
+      image: "https://raw.githubusercontent.com/kk20krishna/Telecom-Churn-Case-Study/refs/heads/main/Pipeline.png",
       projectName: "Intelligent Sourcing",
       projectDesc: "Intelligent Sourcing is a Supply Chain Optimization PoC aimed at minimizing transportation costs by determining the optimal distribution plan across factories, warehouses, and stores. Using Linear Programming with Python’s PuLP library, it ensures demand fulfillment while respecting production and transportation constraints.",
       footerLink: [
