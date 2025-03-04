@@ -88,3 +88,62 @@
     text-align: center;
   }
 }
+
+// ... your existing styles ...
+
+// Popup styles
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 90%; /* Increase this value to increase pop up size*/
+  max-height: 90%; /* Increase this value to increase pop up size*/
+  overflow-y: auto;
+  position: relative;
+  &.popup-content-dark {
+    background-color: #282c34;
+    color: #fff;
+  }
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-title {
+  margin: 0;
+}
+
+.popup-close {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-body {
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+.readme-content {
+  white-space: pre-wrap;
+  font-family: monospace;
+  margin: 0;
+}

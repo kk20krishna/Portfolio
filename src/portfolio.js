@@ -107,7 +107,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Machine Learning", //Insert stack or technology you have experience in
@@ -163,24 +163,23 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
+  subtitle: "PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
       image: require("./assets/images/Supply Chain Optimization.png"),
       projectName: "Intelligent Sourcing",
       projectDesc: "Intelligent Sourcing is a Supply Chain Optimization PoC aimed at minimizing transportation costs by determining the optimal distribution plan across factories, warehouses, and stores. Using Linear Programming with Python’s PuLP library, it ensures demand fulfillment while respecting production and transportation constraints.",
       footerLink: [
-        {
-          name: "Visit Repo",
-          url: "https://github.com/kk20krishna/Intelligent-Sourcing"
-        }
+          { name: "Mode Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Telecom-Churn-Case-Study/main/README.md" }, // Added readmeUrl
+          { name: "GitHub", url: "https://github.com/kk20krishna/Intelligent-Sourcing"}, // Added readmeUrl
+          { name: "Demo", url: "https://demo.com/project1" },
         //  you can add extra buttons here.
       ]
     },
@@ -368,7 +367,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {

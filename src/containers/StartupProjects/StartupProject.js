@@ -1,22 +1,68 @@
-import React, {useContext} from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { bigProjects } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { marked } from "marked"; // Corrected import
 
 export default function StartupProject() {
-  function openUrlInNewTab(url) {
-    if (!url) {
-      return;
-    }
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  const { isDark } = useContext(StyleContext);
+  const [readmeContent, setReadmeContent] = useState(null);
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupTitle, setPopupTitle] = useState("");
 
-  const {isDark} = useContext(StyleContext);
+  // Function to fetch and display the README
+  const openReadmePopup = async (readmeUrl, title) => {
+    setPopupTitle(title);
+    try {
+      const response = await fetch(readmeUrl);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch README: ${response.status}`);
+      }
+      const text = await response.text();
+      // Render the Markdown using marked:
+      const html = marked.parse(text); //Parse the markdown into html
+      setReadmeContent(html); //set the markdown as the content
+      setShowPopup(true);
+    } catch (error) {
+      console.error("Error fetching or displaying README:", error);
+      setReadmeContent("Error loading README. Please check the URL or try again later.");
+      setShowPopup(true); // Still show the popup to display error message
+    }
+  };
+
+  //close popup
+  const closePopup = () => {
+    setShowPopup(false);
+    setReadmeContent(null); // Clear the content when closing
+  };
+
+  //close popup on escape key
+  useEffect(() => {
+    const handleEsc = (event) => {
+      if (event.keyCode === 27) {
+        closePopup();
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+    };
+  }, []);
+
+  // Define openUrlInNewTab here:
+  const openUrlInNewTab = (url) => {
+    if (url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+  };
+
+
   if (!bigProjects.display) {
     return null;
   }
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -74,7 +120,12 @@ export default function StartupProject() {
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
                               }
-                              onClick={() => openUrlInNewTab(link.url)}
+                              // New onClick handler:
+                              onClick={() =>
+                                link.readmeUrl
+                                  ? openReadmePopup(link.readmeUrl, link.name)
+                                  : openUrlInNewTab(link.url)
+                              }
                             >
                               {link.name}
                             </span>
@@ -88,6 +139,32 @@ export default function StartupProject() {
             })}
           </div>
         </div>
+        {/* Popup Modal */}
+        {showPopup && (
+          <div className="popup-overlay">
+            <div
+              className={
+                isDark
+                  ? "dark-mode popup-content popup-content-dark"
+                  : "popup-content popup-content-light"
+              }
+            >
+              <div className="popup-header">
+                <h3 className="popup-title">{popupTitle}</h3>
+                <button className="popup-close" onClick={closePopup}>
+                  &times;
+                </button>
+              </div>
+              <div className="popup-body">
+                {/* Render the README content here */}
+                {readmeContent && (
+                  // <pre className="readme-content">{readmeContent}</pre> // Old incorrect code
+                  <div className="readme-content" dangerouslySetInnerHTML={{ __html: readmeContent }} /> //New correct code
+                )}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </Fade>
   );
