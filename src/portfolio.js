@@ -171,73 +171,15 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
-      image: "https://raw.githubusercontent.com/kk20krishna/Telecom-Churn-Case-Study/refs/heads/main/Pipeline.png",
-      projectName: "Intelligent Sourcing",
-      projectDesc: "Intelligent Sourcing is a Supply Chain Optimization PoC aimed at minimizing transportation costs by determining the optimal distribution plan across factories, warehouses, and stores. Using Linear Programming with Python’s PuLP library, it ensures demand fulfillment while respecting production and transportation constraints.",
+      image: "https://blog.emojipedia.org/content/images/size/w2000/2016/11/hands.jpg",
+      projectName: "Gesture recognition model for Smart TVs",
+      projectDesc: "Gesture recognition model for Smart TVs that can recognise five different gestures performed by the user which will help users control the TV without using a remote.",
       footerLink: [
-          { name: "Mode Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Telecom-Churn-Case-Study/main/README.md" }, // Added readmeUrl
-          { name: "GitHub", url: "https://github.com/kk20krishna/Intelligent-Sourcing"}, // Added readmeUrl
-          { name: "Demo", url: "https://demo.com/project1" },
-        //  you can add extra buttons here.
+          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Gesture-Recognition/refs/heads/main/README.md" },
+          { name: "GitHub", url: "https://github.com/kk20krishna/Gesture-Recognition"},
+          //{ name: "Demo", url: "https://demo.com/project1" },
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
