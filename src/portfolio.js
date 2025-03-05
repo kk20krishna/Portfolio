@@ -213,6 +213,7 @@ const bigProjects = {
       projectName: "Supply Chain Optimization",
       projectDesc: " Supply Chain Optimization PoC aimed at minimizing transportation costs by determining the optimal distribution plan across factories, warehouses, and stores. (uses Linear Optimization)",
       footerLink: [
+          { name: "App - see it in action!!", url: "https://huggingface.co/spaces/kk20krishna/IntelligentSourcing" },
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Supply-Chain-Optimization-PoC/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/Supply-Chain-Optimization-PoC"},
       ]
