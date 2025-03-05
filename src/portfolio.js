@@ -173,11 +173,29 @@ const bigProjects = {
     {
       image: "https://blog.emojipedia.org/content/images/size/w2000/2016/11/hands.jpg",
       projectName: "Gesture recognition model for Smart TVs",
-      projectDesc: "Gesture recognition model for Smart TVs that can recognise five different gestures performed by the user which will help users control the TV without using a remote.",
+      projectDesc: "CNN based model which can accurately detect 9 types of skin cancers.",
       footerLink: [
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Gesture-Recognition/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/Gesture-Recognition"},
           //{ name: "Demo", url: "https://demo.com/project1" },
+      ]
+    },
+    {
+      image: "https://private-user-images.githubusercontent.com/64156067/411407047-a2293089-6337-46c5-a89c-e6d951512291.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDExNTE1MDYsIm5iZiI6MTc0MTE1MTIwNiwicGF0aCI6Ii82NDE1NjA2Ny80MTE0MDcwNDctYTIyOTMwODktNjMzNy00NmM1LWE4OWMtZTZkOTUxNTEyMjkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA1VDA1MDY0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU1MTViYjk5YjJhMWZmNjViYTcwYjI0ODI0ZDdlYWQxN2JkYTJlODc4MzNkZGQ5ZWQ4ZWQ5MDU1YTdlNWRjYjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yxlBfQpTYU2DebdNjY3_1tT95mJAPKRC9JQNNhe7_DU",
+      projectName: "Skin Cancer Detection",
+      projectDesc: "Gesture recognition model for Smart TVs that can recognise five different gestures performed by the user which will help users control the TV without using a remote.",
+      footerLink: [
+          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/skin-cancer-detection/refs/heads/main/README.md" },
+          { name: "GitHub", url: "https://github.com/kk20krishna/skin-cancer-detection"},
+      ]
+    },
+    {
+      image: "https://camo.githubusercontent.com/89afa3a12cc624408bba07713908c25d999843f97c4080222e9294da9a71d427/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61312f4e6f726d616c5f706f737465726f616e746572696f725f25323850412532395f63686573745f726164696f67726170685f253238582d7261792532392e6a70672f32383070782d4e6f726d616c5f706f737465726f616e746572696f725f25323850412532395f63686573745f726164696f67726170685f253238582d7261792532392e6a7067",
+      projectName: "Pleural Effusion detection from chest X-ray images",
+      projectDesc: "This project demonstrates the successful application of transfer learning for pleural effusion detection in chest X-ray images. The model shows promising results and can potentially aid in assisting healthcare professionals with diagnosis. ",
+      footerLink: [
+          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/X-ray-image-Classification/refs/heads/main/README.md" },
+          { name: "GitHub", url: "https://github.com/kk20krishna/X-ray-image-Classification"},
       ]
     },
   ],
