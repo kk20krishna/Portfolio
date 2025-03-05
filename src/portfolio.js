@@ -171,6 +171,16 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
+      image: "https://media.licdn.com/dms/image/v2/D5612AQHoSy7vEfqRtA/article-cover_image-shrink_720_1280/B56ZVQ_fRNGsAI-/0/1740820578081?e=1746662400&v=beta&t=Uj3fzLAIahMVcTVTYvYd8haRo4y0IOWLvaOP88fIBEE",
+      projectName: "Agentic AI News Room",
+      projectDesc: "An autonomous newsroom powered by AI agents that can research, write, and refine news articles, with a unique India-focused editorial perspective.",
+      footerLink: [
+          { name: "LinekdIn Article", readmeUrl: "https://www.linkedin.com/pulse/exploring-agentic-automation-crewai-krishna-kumar-sankaran-kutty-ylunc/" },
+          { name: "Generated Article", url: "https://raw.githubusercontent.com/kk20krishna/Agentic-Automation/refs/heads/main/CrewAI%20NewsRoom%20Crew%20v1/Generated_Editorial_Opinions/editorial_opinion_Trump%20and%20Zelensky_2025-03-02_14-22-17.txt" },
+          { name: "GitHub", url: "https://github.com/kk20krishna/Agentic-Automation/tree/main/CrewAI%20NewsRoom%20Crew%20v1"},
+      ]
+    },
+    {
       image: "https://blog.emojipedia.org/content/images/size/w2000/2016/11/hands.jpg",
       projectName: "Gesture recognition model for Smart TVs",
       projectDesc: "CNN based model which can accurately detect 9 types of skin cancers.",
