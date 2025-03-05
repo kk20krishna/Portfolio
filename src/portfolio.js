@@ -23,10 +23,10 @@ const greeting = {
   username: "Krishna Kumar S",
   title: "Hi all, I'm KK",
   subTitle: emoji(
-    "A passionate Data Scientist 🚀 with expertise in building data-driven solutions using Python, R, and SQL, along with hands-on experience in machine learning, deep learning, and statistical analysis. Skilled in working with large datasets, developing predictive models, and creating insightful visualizations using tools like Pandas, NumPy, Scikit-learn, TensorFlow, and Matplotlib. Proficient in deploying AI solutions and automating workflows with MLOps pipelines."
+    "I am an experienced professional in Intelligent Automation, constantly pushing the boundaries of what's possible with AI & automation. Passionate about innovation and always eager to learn, I thrive at the intersection of automation, machine learning, and cutting-edge AI advancements."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  //resumeLink:
+    //"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,16 +49,14 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "PASSIONATE AI & MACHINE LEARNING ENTHUSIAST EXPLORING CUTTING-EDGE TECHNOLOGIES",
+  title: "My Interests",
+  subTitle: "I specialize in leveraging AI and Intelligent Automation to create innovative, efficient, and scalable solutions. Here’s what I currently focus on:",
   skills: [
-    emoji(
-      "⚡ Develop and deploy machine learning models for predictive analytics and decision-making"
-    ),
-    emoji("⚡ Build and optimize deep learning architectures for diverse applications"),
-    emoji(
-      "⚡ Explore advanced topics like NLP, Computer Vision, and Reinforcement Learning"
-    )
+    emoji("✅ Intelligent Automation – Streamlining processes by integrating AI, automation, and decision-making systems to enhance efficiency and productivity."),
+    emoji("📊 Machine Learning – Building and training ML models to solve complex problems, uncover insights, and drive data-driven decision-making."),
+    emoji("🚀 Latest AI Developments – Staying at the forefront of AI advancements, from cutting-edge research to real-world applications in automation and beyond."),
+    emoji("🧠 AI Agents – Designing autonomous, multi-agent systems that can interact, learn, and make decisions to optimize workflows and business operations."),
+    emoji("🤖 Artificial Intelligence – Harnessing the power of AI to build innovative solutions that push the boundaries of what’s possible in automation and beyond."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -169,7 +167,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Personal Projects",
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
