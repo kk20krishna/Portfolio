@@ -192,7 +192,7 @@ const bigProjects = {
     {
       image: "https://camo.githubusercontent.com/89afa3a12cc624408bba07713908c25d999843f97c4080222e9294da9a71d427/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61312f4e6f726d616c5f706f737465726f616e746572696f725f25323850412532395f63686573745f726164696f67726170685f253238582d7261792532392e6a70672f32383070782d4e6f726d616c5f706f737465726f616e746572696f725f25323850412532395f63686573745f726164696f67726170685f253238582d7261792532392e6a7067",
       projectName: "Pleural Effusion detection from chest X-ray images",
-      projectDesc: "This project demonstrates the successful application of transfer learning for pleural effusion detection in chest X-ray images. The model shows promising results and can potentially aid in assisting healthcare professionals with diagnosis. ",
+      projectDesc: "This project demonstrates the successful application of transfer learning for Pleural Effusion detection in chest X-ray images. The model shows promising results and can potentially aid in assisting healthcare professionals with diagnosis. ",
       footerLink: [
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/X-ray-image-Classification/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/X-ray-image-Classification"},
