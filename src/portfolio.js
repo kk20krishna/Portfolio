@@ -183,7 +183,7 @@ const bigProjects = {
     {
       image: "https://blog.emojipedia.org/content/images/size/w2000/2016/11/hands.jpg",
       projectName: "Gesture recognition model for Smart TVs",
-      projectDesc: "CNN based model which can accurately detect 9 types of skin cancers.",
+      projectDesc: "Gesture recognition model for Smart TVs that can recognise five different gestures performed by the user which will help users control the TV without using a remote.",
       footerLink: [
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Gesture-Recognition/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/Gesture-Recognition"},
@@ -193,7 +193,7 @@ const bigProjects = {
     {
       image: "https://github.com/kk20krishna/skin-cancer-detection/blob/main/image.png?raw=true",
       projectName: "Skin Cancer Detection",
-      projectDesc: "Gesture recognition model for Smart TVs that can recognise five different gestures performed by the user which will help users control the TV without using a remote.",
+      projectDesc: "CNN based model which can accurately detect 9 types of skin cancers.",
       footerLink: [
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/skin-cancer-detection/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/skin-cancer-detection"},
