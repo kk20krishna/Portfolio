@@ -191,7 +191,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://github.com/kk20krishna/skin-cancer-detection/blob/main/image.png",
+      image: "https://github.com/kk20krishna/skin-cancer-detection/blob/main/image.png?raw=true",
       projectName: "Skin Cancer Detection",
       projectDesc: "Gesture recognition model for Smart TVs that can recognise five different gestures performed by the user which will help users control the TV without using a remote.",
       footerLink: [
@@ -209,7 +209,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://private-user-images.githubusercontent.com/64156067/419334699-f012935b-d477-4efd-a6be-65b5ebc1206a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDExNTgyNTUsIm5iZiI6MTc0MTE1Nzk1NSwicGF0aCI6Ii82NDE1NjA2Ny80MTkzMzQ2OTktZjAxMjkzNWItZDQ3Ny00ZWZkLWE2YmUtNjViNWViYzEyMDZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA1VDA2NTkxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI0ZjI2MTk4NTE4OWFmYWI0YTgyZjUyMjAxYzdmNzY4NjdjNzkyNDQ3YjVmNTM1Y2RlOGU2NDE2NzA4MmRmZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.bGx9_AXvNkmhRefu_p0cL9U15kah4KweDVBzILujpbE",
+      image: "https://github.com/kk20krishna/Supply-Chain-Optimization-PoC/blob/main/image.png?raw=true",
       projectName: "Supply Chain Optimization",
       projectDesc: " Supply Chain Optimization PoC aimed at minimizing transportation costs by determining the optimal distribution plan across factories, warehouses, and stores. (uses Linear Optimization)",
       footerLink: [
