@@ -175,8 +175,8 @@ const bigProjects = {
       projectName: "Agentic AI News Room",
       projectDesc: "An autonomous newsroom powered by AI agents that can research, write, and refine news articles, with a unique India-focused editorial perspective.",
       footerLink: [
-          { name: "LinekdIn Article", readmeUrl: "https://www.linkedin.com/pulse/exploring-agentic-automation-crewai-krishna-kumar-sankaran-kutty-ylunc/" },
-          { name: "Generated Article", url: "https://raw.githubusercontent.com/kk20krishna/Agentic-Automation/refs/heads/main/CrewAI%20NewsRoom%20Crew%20v1/Generated_Editorial_Opinions/editorial_opinion_Trump%20and%20Zelensky_2025-03-02_14-22-17.txt" },
+          { name: "LinekdIn Article", Url: "https://www.linkedin.com/pulse/exploring-agentic-automation-crewai-krishna-kumar-sankaran-kutty-ylunc/" },
+          { name: "Generated Article", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Agentic-Automation/refs/heads/main/CrewAI%20NewsRoom%20Crew%20v1/Generated_Editorial_Opinions/editorial_opinion_Trump%20and%20Zelensky_2025-03-02_14-22-17.txt" },
           { name: "GitHub", url: "https://github.com/kk20krishna/Agentic-Automation/tree/main/CrewAI%20NewsRoom%20Crew%20v1"},
       ]
     },
