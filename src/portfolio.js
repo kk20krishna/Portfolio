@@ -170,7 +170,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "PROJECTS THAT I HAVE WORKED ON",
+  subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
       image: "https://raw.githubusercontent.com/kk20krishna/Telecom-Churn-Case-Study/refs/heads/main/Pipeline.png",
