@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/kk20krishna",
   linkedin: "https://www.linkedin.com/in/krishna-kumar-sankaran-kutty/",
-  gmail: "urkrishna@gmail.com",
+  //gmail: "xxxxxxx@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@urkrishna",
@@ -352,8 +352,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? Reachout via LinkedIN.",
-  number: "+91 999999",
-  email_address: "xxxxxx at gmail dot com"
+  //number: "+91 999999",
+  //email_address: "xxxxxx at gmail dot com"
 };
 
 // Twitter Section
