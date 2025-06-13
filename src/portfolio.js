@@ -171,6 +171,30 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
+      projectName: "ShopAssist AI ChatBot",
+      projectDesc: "ShopAssist is an AI-powered web application that helps users find the most suitable laptop based on their requirements. It uses OpenAI's GPT models to interact with users, ask targeted questions, and recommend laptops from a curated dataset. The app is built with Flask and features a modern chat interface.",
+      footerLink: [
+          { name: "GitHub", url: "https://github.com/kk20krishna/ShopAssist"},
+          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/ShopAssist/refs/heads/main/README.md?token=GHSAT0AAAAAADBO7RGKN33UWHOHDYK7RUFC2CLSCFA" },
+      ]
+    },
+    {
+      projectName: "Fake News Detection",
+      projectDesc: "This project addresses the widespread issue of fake news by developing a machine learning system that classifies news articles as either true or fake using Word2Vec embeddings and supervised learning models.",
+      footerLink: [
+          { name: "GitHub", url: "https://github.com/kk20krishna/fake-news-detection"},
+      ]
+    },
+    {
+      projectName: "Intelligent Sourcing",
+      projectDesc: "Optimize sourcing decisions by analyzing warehouse stock, order priorities, costs, and distances. It uses Linear Optimization to efficiently allocate stock while minimizing cost and maximizing efficiency.",
+      footerLink: [
+          { name: "App - see it in action!!", url: "https://huggingface.co/spaces/kk20krishna/IntelligentSourcing" },
+          { name: "GitHub", url: "https://github.com/kk20krishna/Intelligent-Sourcing"},
+          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Intelligent-Sourcing/refs/heads/main/README.md" },
+      ]
+    },
+    {
       projectName: "Custom Medical NER (Named Entity Recognition",
       projectDesc: "A Cuctom model to detect Named Medical Entiries in text corpus",
       footerLink: [
@@ -219,7 +243,6 @@ const bigProjects = {
       projectName: "Supply Chain Optimization",
       projectDesc: " Supply Chain Optimization PoC aimed at minimizing transportation costs by determining the optimal distribution plan across factories, warehouses, and stores. (uses Linear Optimization)",
       footerLink: [
-          { name: "App - see it in action!!", url: "https://huggingface.co/spaces/kk20krishna/IntelligentSourcing" },
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Supply-Chain-Optimization-PoC/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/Supply-Chain-Optimization-PoC"},
       ]
