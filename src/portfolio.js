@@ -171,11 +171,12 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
+      image: "https://github.com/kk20krishna/Portfolio/blob/master/src/assets/images/ShopAssist%20Image.png?raw=true",
       projectName: "ShopAssist AI ChatBot",
       projectDesc: "ShopAssist is an AI-powered web application that helps users find the most suitable laptop based on their requirements. It uses OpenAI's GPT models to interact with users, ask targeted questions, and recommend laptops from a curated dataset. The app is built with Flask and features a modern chat interface.",
       footerLink: [
           { name: "GitHub", url: "https://github.com/kk20krishna/ShopAssist"},
-          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/ShopAssist/refs/heads/main/README.md?token=GHSAT0AAAAAADBO7RGKN33UWHOHDYK7RUFC2CLSCFA" },
+          { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/ShopAssist/refs/heads/main/README.md?token=GHSAT0AAAAAADBO7RGLHRC7UKOA7P7QT7TQ2CLSPDA" },
       ]
     },
     {
