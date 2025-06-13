@@ -186,6 +186,7 @@ const bigProjects = {
       ]
     },
     {
+      image: "https://private-user-images.githubusercontent.com/64156067/450105630-912b4ab7-169f-4500-9166-45487a13ae81.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk3ODMzNDEsIm5iZiI6MTc0OTc4MzA0MSwicGF0aCI6Ii82NDE1NjA2Ny80NTAxMDU2MzAtOTEyYjRhYjctMTY5Zi00NTAwLTkxNjYtNDU0ODdhMTNhZTgxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjEzVDAyNTA0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVlOTRhNmNkNGFjMTVlYjFhNzJiNWQ3OTVlOGM0ZjFlMWFhZGI5MjEyMzU1ZDU4OTIxZGQ2ZTY0NWZmYTk1OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ssW946GkzTionFuFZ2kuNraHdRucSB017Sfz2FQDXqc",
       projectName: "Intelligent Sourcing",
       projectDesc: "Optimize sourcing decisions by analyzing warehouse stock, order priorities, costs, and distances. It uses Linear Optimization to efficiently allocate stock while minimizing cost and maximizing efficiency.",
       footerLink: [
