@@ -171,6 +171,13 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
+      projectName: "Custom Medical NER (Named Entity Recognition",
+      projectDesc: "A Cuctom model to detect Named Medical Entiries in text corpus",
+      footerLink: [
+          { name: "GitHub", url: "https://github.com/kk20krishna/Custom-Medical-NER"},
+      ]
+    },
+    {
       image: "https://github.com/kk20krishna/Portfolio/blob/a900da28d950869e715cb2796812f7afce3bfa0f/src/assets/images/agenticAI%20image.png?raw=true",
       projectName: "Agentic AI News Room",
       projectDesc: "An autonomous newsroom powered by AI agents that can research, write, and refine news articles, with a unique India-focused editorial perspective.",
@@ -187,7 +194,6 @@ const bigProjects = {
       footerLink: [
           { name: "Details", readmeUrl: "https://raw.githubusercontent.com/kk20krishna/Gesture-Recognition/refs/heads/main/README.md" },
           { name: "GitHub", url: "https://github.com/kk20krishna/Gesture-Recognition"},
-          //{ name: "Demo", url: "https://demo.com/project1" },
       ]
     },
     {
