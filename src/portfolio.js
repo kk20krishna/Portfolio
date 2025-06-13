@@ -196,7 +196,7 @@ const bigProjects = {
       ]
     },
     {
-      projectName: "Custom Medical NER (Named Entity Recognition",
+      projectName: "Custom Medical NER (Named Entity Recognition)",
       projectDesc: "A Cuctom model to detect Named Medical Entiries in text corpus",
       footerLink: [
           { name: "GitHub", url: "https://github.com/kk20krishna/Custom-Medical-NER"},
