@@ -171,7 +171,7 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
-      image: "https://media.licdn.com/dms/image/v2/D5612AQHoSy7vEfqRtA/article-cover_image-shrink_720_1280/B56ZVQ_fRNGsAI-/0/1740820578081?e=1755129600&v=beta&t=2303tXteUcqO5IDZY1wnmX2taBhl3gB1OwaxJ-ycqBo",
+      image: "https://github.com/kk20krishna/Portfolio/blob/a900da28d950869e715cb2796812f7afce3bfa0f/src/assets/images/agenticAI%20image.png?raw=true",
       projectName: "Agentic AI News Room",
       projectDesc: "An autonomous newsroom powered by AI agents that can research, write, and refine news articles, with a unique India-focused editorial perspective.",
       footerLink: [
