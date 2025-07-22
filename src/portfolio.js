@@ -189,7 +189,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://en.wikipedia.org/wiki/Fake_news#/media/File:The_fin_de_si%C3%A8cle_newspaper_proprietor_(cropped).jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_fin_de_si%C3%A8cle_newspaper_proprietor_%28cropped%29.jpg",
       projectName: "Fake News Detection",
       projectDesc: "This project addresses the widespread issue of fake news by developing a machine learning system that classifies news articles as either true or fake using Word2Vec embeddings and supervised learning models.",
       footerLink: [
@@ -197,7 +197,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "https://en.wikipedia.org/wiki/Procurement#/media/File:Classification_of_categories_by_central_procurement_strategies.png",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Classification_of_categories_by_central_procurement_strategies.png/1024px-Classification_of_categories_by_central_procurement_strategies.png",
       projectName: "Intelligent Sourcing",
       projectDesc: "Optimize sourcing decisions by analyzing warehouse stock, order priorities, costs, and distances. It uses Linear Optimization to efficiently allocate stock while minimizing cost and maximizing efficiency.",
       footerLink: [
