@@ -171,6 +171,15 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
+      image: "https://huggingface.co/spaces/kk20krishna/InsuranceAIdvisor_DevCon_hackathon/resolve/main/AIdvisor_devcon.png",
+      projectName: "Insurance AIdvisor",
+      projectDesc: "An Agentic AI assistant that simplifies health insurance policy documents for everyday users.",
+      footerLink: [
+          { name: "GitHub", url: "https://huggingface.co/spaces/kk20krishna/InsuranceAIdvisor_DevCon_hackathon/tree/main"},
+          { name: "Details", readmeUrl: "https://huggingface.co/spaces/kk20krishna/InsuranceAIdvisor_DevCon_hackathon/resolve/main/README.md" },
+      ]
+    },
+    {
       image: "https://github.com/kk20krishna/Portfolio/blob/master/src/assets/images/ShopAssist%20Image.png?raw=true",
       projectName: "ShopAssist AI ChatBot",
       projectDesc: "ShopAssist is an AI-powered web application that helps users find the most suitable laptop based on their requirements. It uses OpenAI's GPT models to interact with users, ask targeted questions, and recommend laptops from a curated dataset. The app is built with Flask and features a modern chat interface.",
