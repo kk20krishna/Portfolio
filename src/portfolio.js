@@ -171,6 +171,14 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
+      #image: "https://huggingface.co/spaces/kk20krishna/InsuranceAIdvisor_DevCon_hackathon/resolve/main/AIdvisor_devcon.png",
+      projectName: "Eye for Blind",
+      projectDesc: "A deep learning model which can explain the contents of an image in the form of speech through caption generation with an attention mechanism.",
+      footerLink: [
+          { name: "GitHub", url: "https://github.com/kk20krishna/Eye-for-blind"},
+      ]
+    },
+    {
       image: "https://huggingface.co/spaces/kk20krishna/InsuranceAIdvisor_DevCon_hackathon/resolve/main/AIdvisor_devcon.png",
       projectName: "Insurance AIdvisor",
       projectDesc: "An Agentic AI assistant that simplifies health insurance policy documents for everyday users.",
