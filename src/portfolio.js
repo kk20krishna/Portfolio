@@ -171,11 +171,17 @@ const bigProjects = {
   subtitle: "This portfolio is a showcase of my personal projects and learning journey, where I learn, experiment, build, and refine projects that drive efficiency, intelligence, and automation to new heights. Whether it's crafting smarter AI agents, optimizing workflows, or solving complex problems with ML, each project reflects my dedication to the AI revolution.",
   projects: [
     {
-      #image: "https://huggingface.co/spaces/kk20krishna/InsuranceAIdvisor_DevCon_hackathon/resolve/main/AIdvisor_devcon.png",
       projectName: "Eye for Blind",
       projectDesc: "A deep learning model which can explain the contents of an image in the form of speech through caption generation with an attention mechanism.",
       footerLink: [
           { name: "GitHub", url: "https://github.com/kk20krishna/Eye-for-blind"},
+      ]
+    },
+    {
+      projectName: "Petstore Agent",
+      projectDesc: "A AI-powered chatbot built with LangChain and Gradio that intelligently interacts with the Swagger Pet Store API. This agent can perform various pet store operations through natural language conversations, making API interactions intuitive and user-friendly.",
+      footerLink: [
+          { name: "GitHub", url: "https://github.com/kk20krishna/PetStore_Agent"},
       ]
     },
     {
